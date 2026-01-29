@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>MA page web</title>
+        <link rel="stylesheet" href="main.css">
+
+        <style>
+
+            .LG{
+                background: linear-gradient(135deg, #00b894 0%, #00cec9 100%);
+                padding: 1rem;
+                border-radius: 20px;
+                box-shadow: 0 10px 40px rgba(0, 184, 148, 0.3);
+
+            }
+        </style>
+        
+    </head>
+
+    <body>
+             
+        <div class="qr-code">
+            <img src="qr-code.png" alt="QR Code de mon Github">
+            <p>Scannez pour GitHub</p>
+        </div>
+        <a href="#top" class="scroll-vhaut" aria-label="Retour en haut">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 19V5M5 12l7-7 7 7"/>
+            </svg>
+        </a>
+    
+        <header class ="Header">
+            <div class="header-content">
+                <img src="foot.jpg" alt="Photo personelle" class="profile-photo">
+                <h1>Le Monde de football</h1>
+                <p>Plus qu'un Sport, une Passion Universelle ⚽</p>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#histoire">Histoire</a></li>
+                <li><a href="#légendes">Légendes</a></li>
+                <li><a href="#competitions">competitions</a></li>
+                <li><a href="#regles">Règles</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+
+        </nav>
+
+        <main>
+            <section id ="histoire">
+                <h2>L'Histoire du Football</h2>
+                <p>Le football moderne est né en Angleterre au milieu du 19ème siècle. En 1863, la Football Association (FA) a été fondée à Londres, établissant les premières règles officielles du jeu. Depuis, le football est devenu le sport le plus populaire au monde, rassemblant des milliards de fans sur tous les continents.</p>
+                <p>De ses humbles débuts dans les cours d'école britanniques aux stades gigantesques d'aujourd'hui, le football a évolué pour devenir un phénomène culturel mondial. La première Coupe du Monde a eu lieu en 1930 en Uruguay, marquant le début d'une tradition qui captive le monde entier tous les quatre ans.</p>
+                <p>Le football transcende les frontières, les langues et les cultures. C'est un langage universel qui unit les gens dans la joie, la tristesse, l'espoir et la passion. Que ce soit dans les favelas brésiliennes, les rues de Barcelone ou les terrains africains, le ballon rond crée des rêves et forge des destins.</p>
+            </section>
+
+            <section id="légendes" class="LG">
+                <h2 style="text-transform: uppercase;">Les Plus Grandes Légendes</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Joueurs</th>
+                            <th>Nationalité</th>
+                            <th>Période</th>
+                            <th>Buts en Carrière</th>
+                            <th>Ballons d'Or</th>
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            
+                            <td>Lionel Messi</td>
+                            <td>🇦🇷 Argentine</td>
+                            <td>2004-Présent</td>
+                            <td>+850</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            
+                            <td>Cristiano Ronaldo</td>
+                            <td>🇵🇹 Portugal</td>
+                            <td>2002-Présent</td>
+                            <td>+900</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            
+                            <td>Diego Maradona</td>
+                            <td>🇦🇷 Argentine</td>
+                            <td>1976-1997</td>
+                            <td>346</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Johan Cruyff</td>
+                            <td>🇳🇱 Pays-Bas</td>
+                            <td>1964-1984</td>
+                            <td>291</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Pelé</td>
+                            <td>🇧🇷 Brésil</td>
+                            <td>1956-1977</td>
+                            <td>1281</td>
+                            <td> -</td>
+                            
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </section>
+            <section id="competitions">
+                <h2>Compétitions Majeures</h2>
+                <div class ="competitions-grid">
+                     <article class ="competition-carte">
+                        <h3>🏆 Coupe du Monde FIFA</h3>
+                         <p>Le tournoi le plus prestigieux du football, organisé tous les 4 ans. Plus de 3,5 milliards de spectateurs lors de la finale.</p>
+                        <span class ="tag">International</span>
+                        <span class ="tag">Tous les 4 ans</span>
+                    </article>
+
+                    <article class ="competition-carte">
+                        <h3>🇪🇺 UEFA Champions League</h3>
+                        <p>La plus grande compétition de clubs européens. Real Madrid détient le record avec 14 titres.</p>
+                        <span class ="tag">Clubs</span>
+                        <span class ="tag">Annuel</span>
+                    </article>
+
+                    <article class ="competition-carte">
+                        <h3>⚽ Premier League</h3>
+                        <p>Le championnat anglais, considéré comme le plus compétitif au monde. 20 équipes s'affrontent chaque saison.</p>
+                        <span class ="tag">Angleterre</span>
+                        <span class ="tag">Août-Mai</span>
+                    </article>
+                </div>
+            </section>
+                                   
+          
+            <section id="regles">
+                <aside>
+                    <h2>Les Règles Fondamentales</h2>
+                    
+                    <div class="regle-carte">
+                        <h3>⚽ Le Terrain et les Joueurs</h3>
+                        <p>11 joueurs par équipe sur un terrain de 100-110m x 64-75m</p>
+                        <p class="détails">Un match dure 90 minutes (2 mi-temps de 45 min)</p>
+                    </div>
+                    
+                    <div class="regle-carte">
+                        <h3>🎯 L'Objectif</h3>
+                        <p>Marquer plus de buts que l'adversaire en mettant le ballon dans le but</p>
+                        <p class="détails">Seul le gardien peut toucher le ballon avec les mains dans sa surface</p>
+                    </div>
+                    
+                    <div class="regle-carte">
+                        <h3>⚠️ Fautes et Sanctions</h3>
+                        <ul>
+                            <li>Carton jaune : Avertissement</li>
+                            <li>Carton rouge : Expulsion</li>
+                            <li>Penalty : Faute dans la surface</li>
+                            <li>Hors-jeu : Position illégale lors d'une passe</li>
+                        </ul>
+                    </div>
+                </aside>
+            </section>
+                   
+                </div>
+            
+            <section id="contact" class="section-contact">
+                <h2>Partagez Votre Passion</h2>
+                <div class="dcontact">
+                    <p>Vous êtes passionné de football ? Contactez-nous pour échanger, partager vos analyses ou discuter de vos équipes favorites !</p>
+                    <a href="mailto:hamza.morchid@esi.ac.ma" class="email-boutton" 
+                   style="display: inline-block; background: linear-gradient(135deg, #00b894 0%, #00cec9 100%); color: white; padding: 1rem 2rem; border-radius: 50px; text-decoration: none; font-weight: bold; margin-top: 1rem; box-shadow: 0 5px 20px rgba(0, 184, 148, 0.4); transition: transform 0.3s ease;">
+                    ⚽ Contactez-nous
+                    </a>
+                </div>
+            </section>
+
+
+        </main>
+
+
+   
+        <footer class="MyFooter">
+            <div class="dfooter">
+                <pre>
+                        )            *        )             *        )   (              )  (    (      
+ ( /(   (      (  `    ( /(   (       (  `    ( /(   )\ )   (    ( /(  )\ ) )\ )   
+ )\())  )\     )\))(   )\())  )\      )\))(   )\()) (()/(   )\   )\())(()/((()/(   
+((_)\((((_)(  ((_)()\ ((_)\((((_)(   ((_)()\ ((_)\   /(_))(((_) ((_)\  /(_))/(_))  
+ _((_))\ _ )\ (_()((_) _((_))\ _ )\  (_()((_)  ((_) (_))  )\___  _((_)(_)) (_))_   
+| || |(_)_\(_)|  \/  ||_  / (_)_\(_) |  \/  | / _ \ | _ \((/ __|| || ||_ _| |   \  
+| __ | / _ \  | |\/| | / /   / _ \   | |\/| || (_) ||   / | (__ | __ | | |  | |) | 
+|_||_|/_/ \_\ |_|  |_|/___| /_/ \_\  |_|  |_| \___/ |_|_\  \___||_||_||___| |___/  
+                                                                                   
+                </pre>
+                <p class="copyright">© 2026 Football Passion. Tous droits réservés.</p>
+                <p class="footer-info">Créé avec passion pour les amoureux du ballon rond.BY HAMZA MORCHID ⚽</p>
+            </div>
+
+        </footer>
+
+
+
+
+
+
+    </body>
+    
+
+
+
+
+
+
+
+</html>
+
